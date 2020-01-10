@@ -57,5 +57,16 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanirogers/kemet-accordion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hasanirogers/kemet-accordion/issues"
+  },
+  "homepage": "https://github.com/hasanirogers/kemet-accordion#readme"
 }
