@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit-html';
+    import '../kemet-accordion.js';
+
+    render(
+      html`
+      <kemet-accordion>
+        <a slot="trigger">Trigger</a>
+        <div slot="panel">Bacon ipsum dolor amet shoulder sausage short ribs, fatback ground round biltong drumstick spare ribs bacon tenderloin burgdoggen turducken picanha beef ribs pork belly.</div>
+      </kemet-accordion>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>

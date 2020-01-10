@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "tags": [
+    {
+      "name": "kemet-accordion",
+      "description": "A component that acts like a standard accordion.",
+      "properties": [
+        {
+          "name": "opened",
+          "type": "Boolean",
+          "description": "Determines whether or not the accordion is opened.",
+          "default": false
+        }
+      ],
+      "events": [],
+      "slots": [
+        {
+          "name": "trigger",
+          "description": "The element that, when clicked, opens the accordion."
+        },
+        {
+          "name": "panel",
+          "description": "The body contents of the accordion."
+        }
+      ],
+      "cssProperties": []
+    }
+  ]
+}
