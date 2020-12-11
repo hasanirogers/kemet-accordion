@@ -1,8 +1,8 @@
 {
   "name": "@kemet/kemet-accordion",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A component that acts like a standard accordion.",
-  "author": "kemet-accordion",
+  "author": "Hasani Rogers <hasani.rogers@gmail.com>",
   "license": "MIT",
   "main": "index.js",
   "module": "index.js",
@@ -68,5 +68,5 @@
   "bugs": {
     "url": "https://github.com/hasanirogers/kemet-accordion/issues"
   },
-  "homepage": "https://github.com/hasanirogers/kemet-accordion#readme"
+  "homepage": "http://kemet.online/accordion"
 }
